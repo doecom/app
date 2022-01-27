@@ -1,0 +1,17 @@
+[[redirects]]
+  from = "https://doecom.netlify.app"
+  to = "https://doecom.org"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://doecom-app-dev.netlify.app"
+  to = "https://app-dev.doecom.org"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = false
